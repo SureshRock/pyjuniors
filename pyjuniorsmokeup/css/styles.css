@@ -1,0 +1,52 @@
+.lists li a {
+    text-transform: capitalize;
+    color: #000;
+    font-family: math;
+    font-weight: bold;
+    font-size: 20px;
+}
+.lists li a:hover {
+   color:#00f;
+}
+.lists {
+    gap: 30px;
+}
+.pyjuniors-row1 {
+    align-items: center;
+    justify-content: space-between;
+}
+nav div#navbar {
+    justify-content: end;
+}
+body {
+    border: 9px solid #142a6b;
+}
+
+.carousel-item img {
+    border-top: 9px solid #142a6b;
+    border-bottom: 9px solid #142a6b;
+}
+
+@media screen and (max-width:1200px) {
+    .lists li a {
+        font-size: 16px;
+    }
+
+    .lists {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .lists li a {
+        font-size: 20px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background: #d0e3fd;
+}
