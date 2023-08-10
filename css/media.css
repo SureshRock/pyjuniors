@@ -31,6 +31,6 @@
         padding: 0px 30px;
     }
     .pyjuniors-row1-colum1 img {
-        width: 150px;
+        width: 150px!important;
     }
 }
