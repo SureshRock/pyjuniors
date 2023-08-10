@@ -1,7 +1,15 @@
+@font-face {
+    font-family:RobotoCondensed-Bold;
+    src: url('../fonts/RobotoCondensed-Bold.ttf');
+}
+@font-face {
+    font-family:RobotoCondensed-BoldItalic;
+    src: url('../fonts/RobotoCondensed-BoldItalic.ttf');
+}
 .lists li a {
     text-transform: capitalize;
     color: #000;
-    font-family: math !important;
+    font-family:RobotoCondensed-BoldItalic;
     font-weight: bold;
     font-size: 20px;
 }
@@ -61,6 +69,12 @@ a {
 
 footer {
     background: #d0e3fd;
+}
+.contact h1,.address h4{
+    font-family:RobotoCondensed-Bold ;
+}
+.address h3,.address h6{
+    font-family:RobotoCondensed-BoldItalic ;
 }
 
 
