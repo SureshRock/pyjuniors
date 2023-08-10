@@ -1,0 +1,36 @@
+@media screen and (max-width:1200px) {
+    .lists li a {
+        font-size: 18px;
+    }
+
+    .lists {
+        gap: 10px;
+        text-align: end;
+    }
+}
+@media screen and (max-width:992px) {
+    .lists li a {
+        font-size:17px;
+    }
+    .pyjuniors-row1-colum2 {
+        display: flex;
+        justify-content: end;
+    }
+    .lists {
+        gap: 0px;
+    }
+}
+@media screen and (max-width:576px) {
+    .pyjuniors-row1-colum1,.pyjuniors-row1-colum2 {
+        width: 50%;
+    }
+    .lists li a {
+        font-size:17px;
+    }
+   .contact1 {
+        padding: 0px 30px;
+    }
+    .pyjuniors-row1-colum1 img {
+        width: 150px;
+    }
+}
