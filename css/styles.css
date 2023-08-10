@@ -22,6 +22,7 @@
 
 .pyjuniors-row1 {
     justify-content: space-between;
+    padding: 20px 0px;
     overflow: hidden;
 }
 
@@ -63,7 +64,7 @@ footer {
 }
 
 
-.image {
+/* .image {
     width: 200px!important;
     height: 135px !important;
     position: relative;
@@ -112,4 +113,4 @@ footer {
 
 .image:hover .slide:nth-child(4) {
     transform: translate(40px, 80px) rotate(-15deg);
-}
+} */
