@@ -1,7 +1,7 @@
 .lists li a {
     text-transform: capitalize;
     color: #000;
-    font-family: math;
+    font-family: math!important;
     font-weight: bold;
     font-size: 20px;
 }
@@ -25,7 +25,7 @@
     box-shadow: 0 0 20px 0px #142a6b;
 }
 nav{
-    justify-content: end;
+    justify-content: end!important;
 }
 body {
     border: 9px solid #142a6b;
@@ -36,7 +36,7 @@ body {
     border-bottom: 9px solid #142a6b;
 }
 a {
-    text-decoration: none;
+    text-decoration: none!important;
 }
 footer {
     background: #d0e3fd;
