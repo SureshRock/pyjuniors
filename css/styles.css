@@ -35,6 +35,7 @@ body {
 .carousel-item img {
     border-top: 9px solid #142a6b;
     border-bottom: 9px solid #142a6b;
+    height: 40vh;
 }
 a {
     text-decoration: none!important;
