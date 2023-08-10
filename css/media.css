@@ -33,4 +33,7 @@
     .pyjuniors-row1-colum1 img {
         width: 150px!important;
     }
+    .carousel-item img {
+        height: 40vh!important;
+    }
 }
