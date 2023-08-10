@@ -11,11 +11,20 @@
 .lists {
     gap: 30px;
 }
-.pyjuniors-row1 {
+.pyjuniors-row1-colum2 {
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+.pyjuniors-row1 {
     justify-content: space-between;
 }
-nav div#navbar {
+.address {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0px #000;
+}
+.navbar{
     justify-content: end;
 }
 body {
@@ -29,17 +38,25 @@ body {
 
 @media screen and (max-width:1200px) {
     .lists li a {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .lists {
-        gap: 25px;
+        gap: 10px;
+        text-align: end;
     }
 }
 
 @media screen and (max-width:992px) {
     .lists li a {
-        font-size: 20px;
+        font-size:17px;
+    }
+    .pyjuniors-row1-colum2 {
+        display: flex;
+        justify-content: end;
+    }
+    .lists {
+        gap: 0px;
     }
 }
 
@@ -50,3 +67,25 @@ a {
 footer {
     background: #d0e3fd;
 }
+
+@media screen and (max-width:576px) {
+    .pyjuniors-row1-colum1,.pyjuniors-row1-colum2 {
+        width: 50%;
+    }
+    /* .pyjuniors-row1 {
+        flex-direction: row-reverse;
+    }
+    .navbar {
+        justify-content: start;
+    } */
+    .lists li a {
+        font-size:17px;
+    }
+   .contact1 {
+        padding: 0px 30px;
+    }
+    .pyjuniors-row1-colum1 img {
+        width: 150px;
+    }
+}
+
